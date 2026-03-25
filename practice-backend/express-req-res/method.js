@@ -28,6 +28,6 @@ const server = app.listen(0, async () => {
     console.log(error);
   }
   server.close(() => {
-    console.log("Server is running....");
+    console.log("Server is running.....");
   });
 });
