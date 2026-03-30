@@ -1,4 +1,7 @@
-import { sendVerificationEmail } from "../../common/config/email.js";
+import {
+  sendResetPaasowordEmail,
+  sendVerificationEmail,
+} from "../../common/config/email.js";
 import ApiError from "../../common/utils/api-error.js";
 import {
   generateAccessToken,
@@ -67,17 +70,16 @@ const login = async ({ email, password }) => {
   return { user: userObj, accessToken, refreshToken };
 };
 
-const refresh = async (token) => {
+const refreshToken = async (token) => {
   if (!token) throw ApiError.unauthorized("Refresh token missing");
 
   const decoded = verifyRefreshToken(token);
 
   const user = await User.findById(decoded.id).select("+refreshToken");
-
-  if (!user) throw ApiError.unauthorized("User not found");
+  if (!user) throw ApiError.unauthorized("User no longer exits");
 
   if (user.refreshToken !== hashToken(token))
-    throw ApiError.unauthorized("Invalif refresh token");
+    throw ApiError.unauthorized("Invalid refresh token — please log in again");
 
   const accessToken = generateAccessToken({ id: user._id, role: user.role });
   const refreshToken = generateRefreshToken({ id: user._id });
@@ -101,10 +103,79 @@ const forgotPassword = async (email) => {
 
   user.resetPasswordToken = hashedToken;
   user.resetPasswordExpires = Date.now() + 15 * 60 * 1000;
-
   await user.save();
 
+  try {
+    await sendResetPaasowordEmail(email, rawToken);
+  } catch (error) {
+    console.error("Failed to send reset email:", error.message);
+  }
   // send email to user
 };
 
-export { register, login, refresh, logout, forgotPassword };
+const verifyEmail = async (token) => {
+  const trimmed = String(token).trim();
+
+  if (!trimmed) {
+    throw ApiError.badRequest("Invalid or expired verification token");
+  }
+  // DB stores SHA256(raw). Links / email use the raw token — we hash for lookup.
+  // If you paste the hash from MongoDB into Postman, hashing again would not match;
+  // so we also try a direct match on the stored value.
+
+  const hashedInput = hashToken(trimmed);
+
+  const user = await User.findOne({ verificationToken: hashedInput }).select(
+    "+verificationToken",
+  );
+
+  if (!user) {
+    throw ApiError.badRequest("Invalid or expired verification token");
+  }
+
+  await User.findByIdAndUpdate(user._id, {
+    $set: { isVerified: true },
+    $unset: { verificationToken: 1 },
+  });
+
+  return user;
+};
+
+const resetPassword = async (token, newPassword) => {
+  const trimmed = String(token).trim();
+
+  if (!trimmed) throw ApiError.badRequest("Invalid or expired reset token");
+
+  const hashedToken = hashToken(trimmed);
+
+  const user = await User.findOne({
+    resetPasswordToken: hashedToken,
+    resetPasswordExpires: { $gt: Date.now() },
+  }).select("+resetPasswordToken +resetPasswordExpires");
+
+  if (!user) throw ApiError.badRequest("Invalid or expired reset token");
+
+  user.password = newPassword;
+  user.resetPasswordToken = undefined;
+  user.resetPasswordExpires = undefined;
+  await user.save();
+};
+
+const getMe = async (userId) => {
+  const user = await User.findById(userId);
+
+  if (!user) throw ApiError.notfound("User not found");
+
+  return user;
+};
+
+export {
+  register,
+  login,
+  refreshToken,
+  logout,
+  forgotPassword,
+  verifyEmail,
+  resetPassword,
+  getMe,
+};

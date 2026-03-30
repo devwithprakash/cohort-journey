@@ -1,7 +1,7 @@
 import Joi from "joi";
 import BaseDto from "../../../common/dto/base.dto.js";
 
-class LoginDto extends BaseDto {
+class ForgotPasswordDto extends BaseDto {
   static schema = Joi.object({
     email: Joi.string()
       .trim()
@@ -9,12 +9,7 @@ class LoginDto extends BaseDto {
       .email({ tlds: { allow: false } })
       .max(254)
       .required(),
-    password: Joi.string()
-      .min(8)
-      .max(64)
-      .pattern(/^[A-Za-z0-9]+$/)
-      .required(),
   });
 }
 
-export default LoginDto;
+export default ForgotPasswordDto;
