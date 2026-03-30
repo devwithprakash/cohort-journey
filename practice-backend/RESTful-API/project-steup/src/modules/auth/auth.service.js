@@ -1,3 +1,4 @@
+import { sendVerificationEmail } from "../../common/config/email.js";
 import ApiError from "../../common/utils/api-error.js";
 import {
   generateAccessToken,
@@ -14,8 +15,7 @@ const hashToken = (token) => {
 const register = async ({ name, email, password, role }) => {
   const existingUser = await User.findOne({ email });
 
-  if (existingUser)
-    throw ApiError.conflict("User with this email already exists");
+  if (existingUser) throw ApiError.conflict("Email already registered");
 
   const { rawToken, hashedToken } = generateResetToken();
   //     user get  |  DB stores
@@ -28,7 +28,11 @@ const register = async ({ name, email, password, role }) => {
     verifiedToken: hashedToken,
   });
 
-  // Send email to user
+  try {
+    await sendVerificationEmail(email, rawToken);
+  } catch (error) {
+    console.error("Failed to send verification email:", error.message);
+  }
 
   const userObj = user.toObject();
 
@@ -38,13 +42,15 @@ const register = async ({ name, email, password, role }) => {
   return userObj;
 };
 
-
 const login = async ({ email, password }) => {
   const user = await User.findOne({ email }).select("+password");
-
   if (!user) throw ApiError.unauthorized("Invalid email or password");
 
-  if (!user.isVerified) throw ApiError.forbidden("Please verify email before login");
+  const isMatch = await user.comparePassword(password);
+  if (!isMatch) throw ApiError.unauthorized("Invalid email or password");
+
+  if (!user.isVerified)
+    throw ApiError.forbidden("Please verify email before login");
 
   const accessToken = generateAccessToken({ id: user._id, role: user.role });
   const refreshToken = generateRefreshToken({ id: user._id });
