@@ -10,7 +10,7 @@ class RegisterDto extends BaseDto {
       .max(100)
       .required()
       .message("Password must contain 8 chars minimum")
-      .pattern(/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[a-zA-Z]).{8,}$/gm),
+      .pattern(/^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).+$/),
     role: Joi.string().valid("customer", "seller").default("customer"),
   });
 }
