@@ -1,0 +1,14 @@
+services:
+  postgresdb:
+    image: postgres:17
+    ports: 
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: chaicode
+    volumes:
+      - "postgres_data:/var/lib/postgresql/data"
+#     local folder <--- postgres path where data stored and will move to local folder so data don't lose
+volumes:
+  postgres_data:
