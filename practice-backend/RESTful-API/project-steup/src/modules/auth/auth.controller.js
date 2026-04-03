@@ -30,7 +30,42 @@ const logout = async (req, res) => {
     secure: true,
   });
 
-  ApiResponse.ok(res, "Logout success");
+  ApiResponse.ok(res, "Logged out successfully");
 };
 
-export { register, login, logout };
+const refreshToken = async (req, res) => {
+  const token = req.cookies?.refreshToken;
+  const { accessToken, refreshToken } = await authService.refreshToken(token);
+  ApiResponse.ok(res, "Token refreshed", { accessToken, refreshToken });
+};
+
+const verifyEmail = async (req, res) => {
+  await authService.verifyEmail(req.params.token);
+  ApiResponse.ok(res, "Email verified successfully");
+};
+
+const forgotPassword = async (req, res) => {
+  await authService.forgotPassword(req.body.email);
+  ApiResponse.ok(res, "Password reset email sent");
+};
+
+const resetPassword = async (req, res) => {
+  await authService.resetPassword(req.params.token, req.body.password);
+  ApiResponse.ok(res, "Password reset successfullly");
+};
+
+const getMe = async (req, res) => {
+  const user = authService.getMe(req.user.id);
+  ApiResponse.ok(res, "User profile", user);
+};
+
+export {
+  register,
+  login,
+  logout,
+  refreshToken,
+  verifyEmail,
+  forgotPassword,
+  resetPassword,
+  getMe,
+};
