@@ -8,6 +8,13 @@
       "when": 1775066623440,
       "tag": "0000_loud_red_wolf",
       "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1775303494750,
+      "tag": "0001_petite_arclight",
+      "breakpoints": true
     }
   ]
 }

@@ -4,18 +4,34 @@ export interface UserTokenPayload {
     id: string
 }
 
-// env , token expires
+export function createRefreshToken(payload: UserTokenPayload) {
+    const secret = process.env.JWT_REFRESH_SECRET as string
+    const token = jwt.sign(payload, secret, { expiresIn: "7d" })
 
-const JWT_SECRET = "mysecret123"
-
-export function createUserToken(payload: UserTokenPayload) {
-    const token = jwt.sign(payload, JWT_SECRET)
     return token
 }
 
-export function verifyUserToken(token: string) {
+export function verifyRefreshToken(token: string) {
+    const secret = process.env.JWT_REFRESH_SECRET as string
     try {
-        const payload = jwt.verify(token, JWT_SECRET) as UserTokenPayload
+        const payload = jwt.verify(token, secret) as UserTokenPayload
+        return payload
+    } catch (error) {
+        return null
+    }
+}
+
+export function createAccessToken(payload: UserTokenPayload) {
+    const secret = process.env.JWT_ACCESS_SECRET as string
+    const token = jwt.sign(payload, secret, {expiresIn: "1h"})
+
+    return token
+}
+
+export function verifyAccessToken(token: string) {
+    const secret = process.env.JWT_ACCESS_SECRET as string
+    try {
+        const payload = jwt.verify(token, secret) as UserTokenPayload
         return payload
     } catch (error) {
         return null
