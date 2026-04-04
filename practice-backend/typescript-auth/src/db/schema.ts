@@ -3,7 +3,7 @@ import {pgTable, uuid, varchar, text, timestamp} from "drizzle-orm/pg-core"
 export const userTable = pgTable("users", {
     id: uuid("id").primaryKey().defaultRandom(), // id is primary and can be assign random
     firstName: varchar('first_name', {length: 45}).notNull(), // notNull = required
-    lastNaem: varchar('last_name', {length: 45}),
+    lastName: varchar('last_name', {length: 45}),
     email: varchar('email', {length: 322}).notNull().unique(),
     password: varchar('password', {length: 66}),
     salt: text('salt'),
