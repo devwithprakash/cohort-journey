@@ -68,7 +68,7 @@ Eraser Link: **https://app.eraser.io/workspace/jHgso44PP4bH1TPQIDY0**
 ## Design Decisions
 
 * **UUIDs** used for all PKs
-* **Junction tables** for M:M (client_trainer, session_participants)
+* **Junctions tables** for M:M (client_trainer, session_participants)
 * **Payments linked to subscription** (not directly client)
 * **Separation of diet & workout plans** for flexibility
 * **1:M dominant structure** for scalability
