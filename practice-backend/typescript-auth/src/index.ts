@@ -9,7 +9,7 @@ async function main() {
     const PORT: number = Number(process.env.PORT) || 8080;
 
     server.listen(PORT, () => {
-      console.log(`Http server is running on PORT ${PORT}`);
+      
     });
   } catch (error) {
     console.log("Error starting http server");
