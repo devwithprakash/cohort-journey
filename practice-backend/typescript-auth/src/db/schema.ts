@@ -12,4 +12,4 @@ export const userTable = pgTable("users", {
 
 })
 
-// ORM - JS (cammelCase) | DB - snake_case
+// ORM - JS (cammelCase) | DB - snake_case  
