@@ -6,12 +6,6 @@ This database models an IPL ecosystem including teams, players, seasons, matches
 
 ---
 
-## ER Diagram
-
-Eraser Link: **https://app.eraser.io/workspace/5u5cjuSbo8FEDys2WO3Y**
-
----
-
 ## Core Entities
 
 * **teams** – franchise details  
