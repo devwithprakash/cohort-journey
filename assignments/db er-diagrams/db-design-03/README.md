@@ -6,12 +6,6 @@ This database models a healthcare system including patients, doctors, appointmen
 
 ---
 
-## ER Diagram
-
-Eraser Link: **https://app.eraser.io/workspace/en62B5u4V2LOUrNUxJpy**
-
----
-
 ## Core Entities
 
 * **users** – base authentication & identity
