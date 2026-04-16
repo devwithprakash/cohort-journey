@@ -6,12 +6,6 @@ This database models a gym ecosystem including clients, trainers, subscriptions,
 
 ---
 
-## ER Diagram
-
-Eraser Link: **https://app.eraser.io/workspace/jHgso44PP4bH1TPQIDY0**
-
----
-
 ## Core Entities
 
 * **clients** – user details
