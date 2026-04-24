@@ -20,6 +20,135 @@
 
 <br>
 
+### [Async Code in Node.js: Callbacks and Promises](https://js-blogs.hashnode.dev/async-code-in-node-js-callbacks-and-promises)
+
+  <a href="https://js-blogs.hashnode.dev/async-code-in-node-js-callbacks-and-promises">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/promise in nodejs.png">
+    <p>
+  </a>
+
+<br>
+
+### [Synchronous vs Asynchronous JavaScript](https://js-blogs.hashnode.dev/synchronous-vs-asynchronous-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/synchronous-vs-asynchronous-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/synchronous vs asynchronous.png">
+    <p>
+  </a>
+
+<br>
+
+### [Linux File System : Internals You Should Know](https://js-blogs.hashnode.dev/linux-file-system-internals-you-should-know)
+
+  <a href="https://js-blogs.hashnode.dev/linux-file-system-internals-you-should-know">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/linux file system.png">
+    <p>
+  </a>
+
+<br>
+
+### [Async/Await in JavaScript: Writing Cleaner Asynchronous Code](https://js-blogs.hashnode.dev/async-await-in-javascript-writing-cleaner-asynchronous-code)
+
+  <a href="https://js-blogs.hashnode.dev/async-await-in-javascript-writing-cleaner-asynchronous-code">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/async-await.png">
+    <p>
+  </a>
+
+<br>
+
+### [Error Handling in JavaScript: Try, Catch, Finally](https://js-blogs.hashnode.dev/error-handling-in-javascript-try-catch-finally)
+
+  <a href="https://js-blogs.hashnode.dev/error-handling-in-javascript-try-catch-finally">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/error-handling.png">
+    <p>
+  </a>
+
+<br>
+
+### [Spread vs Rest Operators in JavaScript](https://js-blogs.hashnode.dev/spread-vs-rest-operators-in-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/spread-vs-rest-operators-in-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/spread and reset operator.png">
+    <p>
+  </a>
+
+<br>
+
+### [String Polyfills and Common Interview Methods in JavaScript](https://js-blogs.hashnode.dev/string-polyfills-and-common-interview-methods-in-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/string-polyfills-and-common-interview-methods-in-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/string polyfills.png">
+    <p>
+  </a>
+
+<br>
+
+### [The new Keyword in JavaScript](https://js-blogs.hashnode.dev/the-new-keyword-in-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/the-new-keyword-in-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/new keyword.png">
+    <p>
+  </a>
+
+<br>
+
+### [Callbacks in JavaScript: Why They Exist](https://js-blogs.hashnode.dev/callbacks-in-javascript-why-they-exist)
+
+  <a href="https://js-blogs.hashnode.dev/callbacks-in-javascript-why-they-exist">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/js-callbacks.png">
+    <p>
+  </a>
+
+<br>
+
+### [Template Literals in JavaScript](https://js-blogs.hashnode.dev/template-literals-in-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/template-literals-in-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/template-literals.png">
+    <p>
+  </a>
+
+<br>
+
+### [Array Flatten in JavaScript](https://js-blogs.hashnode.dev/array-flatten-in-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/array-flatten-in-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/array flatten.png">
+    <p>
+  </a>
+
+<br>
+
+### [JavaScript Modules: Import and Export Explained](https://js-blogs.hashnode.dev/javascript-modules-import-and-export-explained)
+
+  <a href="https://js-blogs.hashnode.dev/javascript-modules-import-and-export-explained">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/js-modules.png">
+    <p>
+  </a>
+
+<br>
+
+### [Understanding the this Keyword in JavaScript](https://js-blogs.hashnode.dev/understanding-the-this-keyword-in-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/understanding-the-this-keyword-in-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/this-keyword.png">
+    <p>
+  </a>
+<br>
+
 ### [Why Version Control Exists: The Pendrive Problem](https://life-of-developers-before-git.hashnode.dev/why-version-control-exists-the-pendrive-problem)
 
   <a href="https://life-of-developers-before-git.hashnode.dev/why-version-control-exists-the-pendrive-problem">
