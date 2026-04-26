@@ -30,6 +30,16 @@
 
 <br>
 
+### [JavaScript Promises Explained for Beginners](https://js-blogs.hashnode.dev/javascript-promises-explained-for-beginners)
+
+  <a href="https://js-blogs.hashnode.dev/javascript-promises-explained-for-beginners">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/promises for beginners.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Synchronous vs Asynchronous JavaScript](https://js-blogs.hashnode.dev/synchronous-vs-asynchronous-javascript)
 
   <a href="https://js-blogs.hashnode.dev/synchronous-vs-asynchronous-javascript">
