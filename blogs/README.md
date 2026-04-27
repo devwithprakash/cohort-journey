@@ -20,6 +20,16 @@
 
 <br>
 
+### [Destructuring in JavaScript](https://js-blogs.hashnode.dev/destructuring-in-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/destructuring-in-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/destructuring in js.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Async Code in Node.js: Callbacks and Promises](https://js-blogs.hashnode.dev/async-code-in-node-js-callbacks-and-promises)
 
   <a href="https://js-blogs.hashnode.dev/async-code-in-node-js-callbacks-and-promises">
