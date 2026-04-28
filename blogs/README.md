@@ -20,6 +20,16 @@
 
 <br>
 
+### [What is Node.js? JavaScript on the Server Explained](https://js-blogs.hashnode.dev/what-is-node-js-javascript-on-the-server-explained)
+
+  <a href="https://js-blogs.hashnode.dev/what-is-node-js-javascript-on-the-server-explained">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/Nodejs.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Map and Set in JavaScript](https://js-blogs.hashnode.dev/map-and-set-in-javascript)
 
   <a href="https://js-blogs.hashnode.dev/map-and-set-in-javascript">
