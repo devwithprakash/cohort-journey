@@ -20,6 +20,16 @@
 
 <br>
 
+### [Map and Set in JavaScript](https://js-blogs.hashnode.dev/map-and-set-in-javascript)
+
+  <a href="https://js-blogs.hashnode.dev/map-and-set-in-javascript">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/map and set.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Destructuring in JavaScript](https://js-blogs.hashnode.dev/destructuring-in-javascript)
 
   <a href="https://js-blogs.hashnode.dev/destructuring-in-javascript">
