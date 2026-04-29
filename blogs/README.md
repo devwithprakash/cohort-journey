@@ -20,6 +20,16 @@
 
 <br>
 
+### [Why Node.js is Perfect for Building Fast Web Applications](https://js-blogs.hashnode.dev/why-node-js-is-perfect-for-building-fast-web-applications)
+
+  <a href="https://js-blogs.hashnode.dev/why-node-js-is-perfect-for-building-fast-web-applications">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/nodejs architecture.png">
+    <p>
+  </a>
+
+<br>
+
 ### [What is Node.js? JavaScript on the Server Explained](https://js-blogs.hashnode.dev/what-is-node-js-javascript-on-the-server-explained)
 
   <a href="https://js-blogs.hashnode.dev/what-is-node-js-javascript-on-the-server-explained">
