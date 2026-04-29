@@ -20,6 +20,16 @@
 
 <br>
 
+### [Blocking vs Non-Blocking Code in Node.js](https://js-blogs.hashnode.dev/blocking-vs-non-blocking-code-in-node-js)
+
+  <a href="https://js-blogs.hashnode.dev/blocking-vs-non-blocking-code-in-node-js">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/blocking vs non-blocking.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Why Node.js is Perfect for Building Fast Web Applications](https://js-blogs.hashnode.dev/why-node-js-is-perfect-for-building-fast-web-applications)
 
   <a href="https://js-blogs.hashnode.dev/why-node-js-is-perfect-for-building-fast-web-applications">
