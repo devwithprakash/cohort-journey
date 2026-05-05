@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+/* Dark theme overrides for the cat profile card */
+body {
+  background-color: #0b1220;
+  color: #e2e8f0;
+}
+
+.min-h-screen.flex.items-center.justify-center.bg-emerald-100 {
+  background-color: #0f172a !important;
+}
+
+.w-80.bg-white.rounded-3xl.overflow-hidden.shadow-xl {
+  background-color: #111827 !important;
+  border-color: rgba(148, 163, 184, 0.2) !important;
+  box-shadow: 0 24px 60px rgba(15, 23, 42, 0.45) !important;
+}
+
+.w-80.bg-white.rounded-3xl.overflow-hidden.shadow-xl [class*="border-black/5"] {
+  border-color: rgba(148, 163, 184, 0.2) !important;
+}
+
+.h-28.bg-gradient-to-br.from-emerald-100.via-emerald-300.to-emerald-400.relative.flex.items-end.justify-center {
+  background: radial-gradient(circle at top, rgba(96, 165, 250, 0.16), transparent 40%),
+    linear-gradient(135deg, #111827 0%, #1f2937 100%) !important;
+}
+
+.absolute.rounded-full.border-4.overflow-hidden.bg-emerald-200 {
+  background-color: #1f2937 !important;
+  border-color: rgba(255, 255, 255, 0.16) !important;
+  box-shadow: 0 14px 30px rgba(15, 23, 42, 0.45) !important;
+}
+
+.pt-14.pb-7.px-7.text-center {
+  color: #e2e8f0 !important;
+}
+
+.font-serif.text-2xl.font-medium.text-gray-900.tracking-tight.mb-1 {
+  color: #f8fafc !important;
+}
+
+.border-t.mb-5,
+.border-t.mt-5.mb-4 {
+  border-color: rgba(148, 163, 184, 0.2) !important;
+}
+
+.grid.grid-cols-2.gap-3.text-left > div.bg-gray-50.rounded-xl.p-3 {
+  background-color: #1f2937 !important;
+  color: #e2e8f0 !important;
+  border: 1px solid rgba(148, 163, 184, 0.15) !important;
+}
+
+.text-gray-400.text-xs.font-medium.tracking-widest.uppercase.mb-1.flex.items-center.gap-1 {
+  color: #94a3b8 !important;
+}
+
+.text-gray-800.text-sm.font-medium {
+  color: #f8fafc !important;
+}
+
+.text-gray-500.text-xs.leading-relaxed.text-center.mt-5.mb-1 {
+  color: #cbd5e1 !important;
+}
