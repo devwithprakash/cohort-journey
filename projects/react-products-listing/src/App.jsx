@@ -75,12 +75,13 @@ const App = () => {
   useEffect(() => {
     const fetchProducts = async () => {
       try {
+        setLoading(true);
+
         const url = `https://api.freeapi.app/api/v1/public/randomproducts?page=${page}&limit=12`;
         const response = await fetch(url, {
           method: "GET",
           headers: { "Content-Type": "application/json" },
         });
-
         const data = await response.json();
 
         setProducts(data.data.data);
@@ -90,6 +91,8 @@ const App = () => {
         setLoading(false);
       }
     };
+
+    fetchProducts();
   }, [page]);
 
   return (

@@ -6,18 +6,20 @@ const VideoCard = ({ video }) => {
   const { id, snippet, statistics } = video.items;
   return (
     <div className="cursor-pointer">
-      <img
-        src={snippet.thumbnails.high.url}
-        alt={snippet.title}
-        className="w-full aspect-video object-cover rounded-lg"
-      />
-      <p className="mt-2 mb-1 text-sm font-medium leading-snug text-white">
-        {snippet.title}
-      </p>
-      <p className="text-xs text-gray-400 mb-0.5">{snippet.channelTitle}</p>
-      <p className="text-xs text-gray-500">
-        {Math.floor(statistics.viewCount / 1000)}k
-      </p>
+      <a href={`https://www.youtube.com/watch?v=${id}`}>
+        <img
+          src={snippet.thumbnails.high.url}
+          alt={snippet.title}
+          className="w-full aspect-video object-cover rounded-lg"
+        />
+        <p className="mt-2 mb-1 text-sm font-medium leading-snug text-white">
+          {snippet.title}
+        </p>
+        <p className="text-xs text-gray-400 mb-0.5">{snippet.channelTitle}</p>
+        <p className="text-xs text-gray-500">
+          {Math.floor(statistics.viewCount / 1000)}k
+        </p>
+      </a>
     </div>
   );
 };
@@ -39,13 +41,13 @@ const App = () => {
 
   const fetchVideos = async () => {
     try {
+      setLoading(true);
       const response = await fetch(
         `https://api.freeapi.app/api/v1/public/youtube/videos?page=${page}&limit=12`,
         { method: "GET", headers: { "Content-Type": "application/json" } },
       );
 
       const data = await response.json();
-
       setVideos(data.data.data);
     } catch (error) {
       console.error(error.message);
