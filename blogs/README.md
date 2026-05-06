@@ -20,6 +20,16 @@
 
 <br>
 
+### [Sessions vs JWT vs Cookies: Understanding Authentication Approaches](https://js-blogs.hashnode.dev/sessions-vs-jwt-vs-cookies-understanding-authentication-approaches)
+
+  <a href="https://js-blogs.hashnode.dev/sessions-vs-jwt-vs-cookies-understanding-authentication-approaches">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/session-jwt-cookie.png">
+    <p>
+  </a>
+
+<br>
+
 ### [REST API Design Made Simple with Express.js](https://js-blogs.hashnode.dev/rest-api-design-made-simple-with-express-js)
 
   <a href="https://js-blogs.hashnode.dev/rest-api-design-made-simple-with-express-js">
