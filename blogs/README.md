@@ -20,6 +20,46 @@
 
 <br>
 
+### [REST API Design Made Simple with Express.js](https://js-blogs.hashnode.dev/rest-api-design-made-simple-with-express-js)
+
+  <a href="https://js-blogs.hashnode.dev/rest-api-design-made-simple-with-express-js">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/rest api.png">
+    <p>
+  </a>
+
+<br>
+
+### [Setting Up Your First Node.js Application Step-by-Step](https://js-blogs.hashnode.dev/setting-up-your-first-node-js-application-step-by-step)
+
+  <a href="https://js-blogs.hashnode.dev/setting-up-your-first-node-js-application-step-by-step">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/nodejs setup.png">
+    <p>
+  </a>
+
+<br>
+
+### [How Node.js Handles Multiple Requests with a Single Thread](https://js-blogs.hashnode.dev/how-node-js-handles-multiple-requests-with-a-single-thread)
+
+  <a href="https://js-blogs.hashnode.dev/how-node-js-handles-multiple-requests-with-a-single-thread">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/nodejs handle requests.png">
+    <p>
+  </a>
+
+<br>
+
+### [The Node.js Event Loop Explained](https://js-blogs.hashnode.dev/the-node-js-event-loop-explained)
+
+  <a href="https://js-blogs.hashnode.dev/the-node-js-event-loop-explained">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/event loop.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Blocking vs Non-Blocking Code in Node.js](https://js-blogs.hashnode.dev/blocking-vs-non-blocking-code-in-node-js)
 
   <a href="https://js-blogs.hashnode.dev/blocking-vs-non-blocking-code-in-node-js">
