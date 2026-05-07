@@ -20,6 +20,16 @@
 
 <br>
 
+### [Handling File Uploads in Express with Multer](https://js-blogs.hashnode.dev/handling-file-uploads-in-express-with-multer)
+
+  <a href="https://js-blogs.hashnode.dev/handling-file-uploads-in-express-with-multer">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/multer.png">
+    <p>
+  </a>
+
+<br>
+
 ### [URL Parameters vs Query Strings in Express.js](https://js-blogs.hashnode.dev/url-parameters-vs-query-strings-in-express-js)
 
   <a href="https://js-blogs.hashnode.dev/url-parameters-vs-query-strings-in-express-js">
