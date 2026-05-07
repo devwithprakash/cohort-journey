@@ -20,6 +20,16 @@
 
 <br>
 
+### [URL Parameters vs Query Strings in Express.js](https://js-blogs.hashnode.dev/url-parameters-vs-query-strings-in-express-js)
+
+  <a href="https://js-blogs.hashnode.dev/url-parameters-vs-query-strings-in-express-js">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/params-vs-query.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Creating Routes and Handling Requests with Express](https://js-blogs.hashnode.dev/creating-routes-and-handling-requests-with-express)
 
   <a href="https://js-blogs.hashnode.dev/creating-routes-and-handling-requests-with-express">
