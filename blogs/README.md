@@ -20,6 +20,16 @@
 
 <br>
 
+### [Storing Uploaded Files and Serving Them in Express](https://js-blogs.hashnode.dev/storing-uploaded-files-and-serving-them-in-express)
+
+  <a href="https://js-blogs.hashnode.dev/storing-uploaded-files-and-serving-them-in-express">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/file-uploading.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Handling File Uploads in Express with Multer](https://js-blogs.hashnode.dev/handling-file-uploads-in-express-with-multer)
 
   <a href="https://js-blogs.hashnode.dev/handling-file-uploads-in-express-with-multer">
