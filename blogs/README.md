@@ -20,6 +20,16 @@
 
 <br>
 
+### [Creating Routes and Handling Requests with Express](https://js-blogs.hashnode.dev/creating-routes-and-handling-requests-with-express)
+
+  <a href="https://js-blogs.hashnode.dev/creating-routes-and-handling-requests-with-express">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/express-routes-request-handling.png">
+    <p>
+  </a>
+
+<br>
+
 ### [What is Middleware in Express and How It Works](https://js-blogs.hashnode.dev/what-is-middleware-in-express-and-how-it-works)
 
   <a href="https://js-blogs.hashnode.dev/what-is-middleware-in-express-and-how-it-works">
