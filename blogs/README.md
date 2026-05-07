@@ -20,6 +20,16 @@
 
 <br>
 
+### [JWT Authentication in Node.js Explained Simply](https://js-blogs.hashnode.dev/jwt-authentication-in-node-js-explained-simply)
+
+  <a href="https://js-blogs.hashnode.dev/jwt-authentication-in-node-js-explained-simply">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/jwt-auth.png">
+    <p>
+  </a>
+
+<br>
+
 ### [Sessions vs JWT vs Cookies: Understanding Authentication Approaches](https://js-blogs.hashnode.dev/sessions-vs-jwt-vs-cookies-understanding-authentication-approaches)
 
   <a href="https://js-blogs.hashnode.dev/sessions-vs-jwt-vs-cookies-understanding-authentication-approaches">
