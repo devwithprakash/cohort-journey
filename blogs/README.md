@@ -20,6 +20,16 @@
 
 <br>
 
+### [What is Middleware in Express and How It Works](https://js-blogs.hashnode.dev/what-is-middleware-in-express-and-how-it-works)
+
+  <a href="https://js-blogs.hashnode.dev/what-is-middleware-in-express-and-how-it-works">
+      <p align=center>
+      <img width = "500px" alt="Jio Network blocking the view? Network switch reveals the magic!" src="./assets/express-middleware.png">
+    <p>
+  </a>
+
+<br>
+
 ### [JWT Authentication in Node.js Explained Simply](https://js-blogs.hashnode.dev/jwt-authentication-in-node-js-explained-simply)
 
   <a href="https://js-blogs.hashnode.dev/jwt-authentication-in-node-js-explained-simply">
