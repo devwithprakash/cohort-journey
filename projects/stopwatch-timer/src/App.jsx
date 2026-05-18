@@ -3,7 +3,7 @@ import { useRef, useState } from "react";
 function App() {
   const [activeTab, setActiveTab] = useState("stopwatch");
 
-  const [stopWatchValue, setStopWatchValue] = useState(50);
+  const [stopWatchValue, setStopWatchValue] = useState(0);
 
   const [time, setTime] = useState("12:12:12");
   const [initialTime, setInitialTime] = useState("12:12:12");
